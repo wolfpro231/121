@@ -11,7 +11,7 @@ client.on('message', message => {
       
   if (message.content.startsWith(adminprefix + 'bt2')) {
     client.user.setGame(argresult);
-      message.channel.send(`**تـــ تغيير الحالة ــم   ${argresult}**`)
+      message.channel.send(`**تـــ تغيير الحالة يا انجل ــم   ${argresult}**`)
   } else 
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
@@ -26,7 +26,7 @@ client.on('message', message => {
   } else 
   if (message.content.startsWith(adminprefix + 'bt')) {
     client.user.setGame(argresult, "https://www.twitch.tv/dream");
-      message.channel.send(`**تـــ تغيير الحالة ــم**`)
+      message.channel.send(`**تـــ تغيير الحالة يا انجل ــم**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
